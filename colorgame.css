@@ -1,0 +1,58 @@
+body{
+	background-color: #232323;
+	margin: 0;
+	font-family:Roboto Condensed;
+}
+.square{
+	width: 30%;
+	background-color: purple;
+	padding-bottom: 30%;
+	margin: 1.66%;
+	float:left;
+	border-radius: 20%;
+	margin-top: 2%;
+	transition: background 0.9s;
+}
+.container{
+	max-width:600px;
+	margin: 20px auto; /*//0 margin on top and bottom and auto on left and right*/
+}
+.h1{
+	background-color: white;
+	text-align: center;
+	background-color: rgb(33, 227, 191); 
+	margin: 0;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 1.1;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+span{
+	background-color: white;
+}
+#colorDisplay{
+	background:rgb(33, 227, 191); 
+}
+.stripe{
+	background-color: white;
+	height: 30px;
+	text-align: center;
+}
+button{
+	border:none;
+	background-color: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	height: 100%;
+	color: rgb(33, 227, 191); 
+	letter-spacing: 1px;
+	transition: all 2.0s;
+}
+button:hover{
+	color: white;
+	background-color: rgb(33, 227, 191); 
+}
+#colorDisplay{
+	font-size: 200%;
+}
